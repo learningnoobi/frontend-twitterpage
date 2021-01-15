@@ -86,7 +86,14 @@ nav{
 .navbar-nav li:last-child{
   margin-top: auto;
 }
-
+.navbar-nav li:hover{
+  background-color:rgb(109 11 52) ;
+  border-radius: 30px;
+}
+.link-tweet{
+   background-color: var(--red);
+  border-radius: 30px; 
+}
 .navbar-nav a{
     text-decoration: none;
     color: var(--text-color);
@@ -142,8 +149,8 @@ nav i{
   font-weight: 2800;
   z-index: 1;
   border-bottom: 1px solid var(--border);
-  width:700px;
-  margin-left: -10px;
+  width:100%;
+  
 }
 .tweet-header button{
   display: none;
@@ -188,7 +195,9 @@ nav i{
     margin-top: 10px;
    
 }
-
+.bottom-menu{
+  display: none;
+}
 
 @media only screen and (max-width: 1150px){
   nav {
@@ -213,11 +222,11 @@ nav i{
   }
 
   .second-trend{
-    display: none;
+    display: block;
+    width: 40%;
   }
   .second-tweet{
-
-    width: 100%;
+    width: 60%;
   }
   .tweet-header{
     width: 100%;
@@ -230,6 +239,15 @@ nav i{
     position: relative;
     margin-left: 50px;
   }
+}
+
+@media only screen and (max-width: 850px){
+ .second-tweet{
+  width: 100%;
+ }
+ .second-trend{
+  display: none;
+ }
 }
 @media only screen and (max-width: 600px){
   nav {
@@ -262,5 +280,31 @@ nav i{
   .tweet-header h4{
     position: relative;
     margin-left: 50px;
+  }
+  .navbar-nav li:hover{
+    background-color: transparent;
+    color: var(--red);
+  }
+  .bottom-menu{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  height: 4rem;
+  display: flex;
+  align-items:center;
+  width: 100%;
+  background-color: var(--background);
+  border-top: 1px solid var(--border);
+  transition: 400ms ease;
+ }
+ .bottom-menu ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  }
+  .bottom-menu i{
+    color: gray;
+    font-size: 21px;
+    margin-top: 20px;
   }
 }
