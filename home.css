@@ -242,6 +242,9 @@ nav i{
   .add-tweet{
     margin-left: 80px;
   }
+  .actual-tweet{
+    margin-left: 80px;
+  }
   nav i{
     margin-left: 5px;
   }
@@ -298,6 +301,10 @@ nav i{
   }
     .add-tweet{
     margin-left: 0px;
+    width: 100%;
+  }
+    .actual-tweet{
+     margin-left: 0px;
     width: 100%;
   }
   .second{
