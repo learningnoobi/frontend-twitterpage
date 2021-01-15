@@ -67,8 +67,17 @@
 	     		 	</span>
 	     		 		<div class="tweet-content">
 	     		 			<a href="#">Rayon</a> <span>@ Rae | 14 hrs </span>
+	     		 		<div class="btn-group" style="margin-left:100px;">
+		                  <i class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		                  </i>
+		                  <div class="dropdown-menu down-link">
+		                    <a class="dropdown-item" href="{% url 'update' object.id %}">Edit</a>
+		                    <a class="dropdown-item" href="{% url 'delete' object.id %}">Delete</a>
+
+                  		</div>
+               		 </div>
 	     		 			<p>This is the detail</p>
-	     		 			<img src="dabi.jpg" class="image" width="350px">
+	     		 			<img src="dabi.jpg" class="image" width="90%;">
 	     		 		</div>
 	     		 		
      		 	</div>
@@ -80,7 +89,7 @@
 	     		 		<div class="tweet-content">
 	     		 			<a href="#">Rayon</a> <span>@ Rae | 14 hrs </span>
 	     		 			<p>This is the detail</p>
-	     		 			<img src="dabi.jpg" class="image" width="350px">
+	     		 			<img src="v.jpg" class="image" width="90%">
 	     		 		</div>
 	     		 		
      		 	</div>
@@ -99,9 +108,9 @@
 		 	<div class="trend">
    				<h4 style="color: var(--text-color);border-bottom: 1px solid var(--border);padding: 13px;font-style: var(--monst);">Trending Posts</h4>
    			 	<span style="width: 80%;margin:auto;">
-    			<a href="#"><small style="color:var(--text-color);margin-left: 10px;">Bishal</small></a>
-      			<a href="#" style="display: block;">
-       			<p class="trend-list" style=""># Nie boy</p>
+    			<a href="#"><small style="color:var(--text-color);margin-left: 30px;">Bishal</small></a>
+      			<a href="#" style="display:">
+       			<p class="trend-list" style=";margin-left: 20px;border-bottom: 1px solid var(--border);"># Nie boy</p>
      		    </a>
 				</span>
    			</div>
@@ -109,7 +118,7 @@
     			<h4 style="color: var(--text-color);border-bottom: 1px solid var(--border);padding: 13px;">Who to Follow ?</h4>
      
     			<span class="trendlist" style="display: flex;padding: 20px;border-bottom: 1px solid var(--border);">
-	   				<span><a href='#'><img src="#" class="rounded-circle profile-image" width="50px" height="50px"></a></span>
+	   				<span><a href='#'><img src="dabi.jpg" class="rounded-circle profile-image" width="50px" height="50px"></a></span>
 		   				<span style="margin-left: 20px;">
 		     				<a href='#' style="display: block;">
 		       					<p class="user-list" style="">Rayon | <span style="color: var(--info);">@Raee</span></p>
