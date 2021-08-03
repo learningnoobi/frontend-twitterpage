@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>home </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+   
+	<div class="nav" id="nav">
+		<ul class="navbar-nav">
+			<li><a href="#">
+				<i class="fa fa-twitter"></i><span class="link-text close" onclick="closeNav()">X</span>
+			</a></li>
+			<li><a href="#"><i class="fa fa-home"></i><span class="link-text">Home</span></a></li>
+			<li><a href="#"><i class="fa fa-rocket"></i><span>Explore</span class="link-text"></a></li>
+			<li><a href="#"><i class="fa fa-bell"></i><span class="link-text">Notifications</span></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i><span class="link-text">Messages</span></a></li>
+			<li><a href="#"><i class="fa fa-bookmark"></i><span class="link-text">Bookmarks</span></a></li>
+			<li><a href="#"><i class="fa fa-list"></i><span class="link-text">Lists</span></a></li>
+			<li><a href="#"><i class="fa fa-user"></i><span class="link-text">Profile</span></a></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i><span class="link-text">More</span></a></li>
+			<li class="link-tweets"><a href="#"><i class="fa fa-plus"></i><span class="link-text">Tweet</span></a></li>
+			<li><a href="#"><i class="fa fa-delete"></i><span class="link-text">Logout</span></a></li>
+		</ul>		
+	</div>
+
+
+
+ <div class="second" id="second">
+
+		 <div class="second-tweet">
+		 	  <div class="tweet-header">
+        		<h4>Home</h4>
+				<button class="btns" onclick="openNav()">☰ </button>
+     		 </div>
+
+     	
+     		 <div class="add-tweet">
+     		 	<span class="add-tweet-image">
+     		 		<a href="#"><img src="dabi.jpg" class="rounded-circle profile-image" width="60px" height="60px" ></a>
+     		 	</span>
+     		 	<div class="add-tweet-input">
+     		 		<div>
+                        <textarea type="text" rows="3" cols="50"  placeholder =" What's happening ?"></textarea>
+     		 		</div>
+     		 		<div>
+     		 			<ul class="add-tweet-icon">
+						  <div class="add-icon">
+     		 				<li class="side-icon"><i class="fa fa-image"></i></li>
+     		 				<li class="side-icon"><i class="fa fa-play"></i></li>
+                              <li class="side-icon"><i class="fa fa-bus"></i></li>
+                              <li class="side-icon"><i class="fa fa-calendar"></i></li>
+     		 				<li class="side-icon"><i class="fa fa-globe"></i></li>
+							</div>
+							
+							  <li class="link-tweet"><span>Tweet</span></li>
+     		 			</ul>
+						
+     		 		</div>
+     		 	</div>
+     		 </div>
+     		
+     		 	<div class="actual-tweet">
+	     		 	<span class="add-tweet-image">
+	     		 		<a href="#"><img src="dabi.jpg" class="rounded-circle profile-image" width="60px" height="60px" ></a>
+	     		 	</span>
+	     		 		<div class="tweet-content">
+	     		 			<a href="#">Rayon</a> <span class="side-name">@ Rae | 14 hrs </span>
+	     		 			<p>This is the detail</p>
+	     		 			<img src="dabi.jpg" class="image">
+	     		 		</div>
+	     		 		
+     		 	</div>
+     		
+     		 	<div class="actual-tweet">
+	     		 	<span class="add-tweet-image">
+	     		 		<a href="#"><img src="dabi.jpg" class="rounded-circle profile-image" width="50px" height="50px" ></a>
+	     		 	</span>
+	     		 		<div class="tweet-content">
+	     		 			<a href="#">Rayon</a> <span class="side-name">@ Rae | 14 hrs </span>
+	     		 			<p>This is the detail</p>
+	     		 			<img src="v.jpg" class="image" >
+	     		 		</div>
+	     		 		
+     		 	</div>
+     		</div>
+		 	
+
+		 
+
+		
+
+		 <div class="second-trend">
+		 	<div class="search">
+		 		<i class="fa fa-search searchicon"></i>
+		 		<input type="text" id="search-bar" placeholder="Search Twitter">
+		 	</div>
+		 	<div class="trend">
+   				<h4 class="h4-title">Trending Posts</h4>
+            <div class="trend-div">
+   			 	<div class="left-20"> 
+    			<a href="#"><small class="trend-title">Bishal</small></a>
+      			<a href="#">
+       			<p class="trend-list"># Nie boy</p>
+     		    </a>
+				</div>
+            </div>
+   			</div>
+		    <div class="follow">
+    			<h4 class="h4-title">Who to Follow ?</h4>
+     
+    			<span class="trendlist">
+	   				<span><a href='#'><img src="dabi.jpg" class="rounded-circle profile-image" width="50px" height="50px"></a></span>
+		   				<span class="left-20">
+		     				<a href='#'>
+		       					<p class="user-list">Rayon | <span class="side-name">@Raee</span></p>
+		      				</a>
+		           			<span class="follow-line"> I am famous !</span>
+		    			</span>
+				</span>
+      		</div>
+		 </div>
+	
+		 <div class="bottom-menu">
+			<ul>
+				<li><i class="fa fa-home" style="color: var(--red);"></i></li>
+				<li><i class="fa fa-search"></i></li>
+				<li><i class="fa fa-user"></i></li>
+				<li><i class="fa fa-bell"></i></li>
+			</ul>
+		</div>
+
+
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+ 
+<script src="home.js"></script>
+</body>
+</html>

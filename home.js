@@ -1,9 +1,11 @@
-
+const navs = document.getElementById("nav")
 function openNav() {
-  document.getElementById('nav').classList.toggle("sidebar");
+  navs.classList.toggle("sidebar")
+  console.log('open')
+  
 }
 
 function closeNav() {
-  document.getElementById("nav").classList.toggle("sidebar");
+  navs.classList.toggle("sidebar");
  
 }
